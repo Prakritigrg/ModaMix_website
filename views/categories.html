@@ -1,0 +1,27 @@
+<!-- categories.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category Management</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="container limited-width">
+        <h2>Category Management</h2>
+        <form id="categoryForm">
+            <label for="categoryName">Category Name:</label>
+            <input type="text" id="categoryName" name="categoryName" required>
+
+            <label for="categoryDesc">Description:</label>
+            <input type="text" id="categoryDesc" name="categoryDesc" required>
+
+            <button type="submit">Create Category</button>
+        </form>
+        <div id="categoryMessage"></div>
+    </div>
+
+    <script src="/scripts.js"></script>
+</body>
+</html>
